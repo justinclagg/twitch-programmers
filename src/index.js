@@ -7,7 +7,7 @@ $(document).ready(() => {
 	// Configuration variables
 	const featuredStreams = ['freecodecamp', 'programming', 'Shmellyorc', 'HardlyDifficult', 'NarcosVsZombies', 'DonTheDeveloper', 'JessicaMak', 'WilliamChyr', 'TheGoodIdeaCo', 'AurynSky', 'Adam13531'];
 	const maxStreams = featuredStreams.length;
-	const defaultLogo = 'http://i.imgsafe.org/a088ce19c3.png';
+	const defaultLogo = 'https://i.imgsafe.org/a088ce19c3.png';
 	const defaultInfo = 'Click to view on Twitch.tv';
 	// Get and compile Handlebars.js stream template
 	const streamTemplateScript = $('#streamTemplate').html();
