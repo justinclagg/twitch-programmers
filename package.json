@@ -1,0 +1,26 @@
+{
+  "name": "twitch-programmers",
+  "version": "1.0.0",
+  "description": "A jQuery application that displays Twitch.tv programming streams.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack -p --config ./webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justinclagg/twitch-programmers.git"
+  },
+  "author": "Justin Clagg",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-preset-es2015": "^6.18.0",
+    "css-loader": "^0.25.0",
+    "dotenv-webpack": "^1.3.1",
+    "eslint": "^3.9.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.3"
+  }
+}
